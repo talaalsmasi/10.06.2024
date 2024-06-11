@@ -60,9 +60,18 @@
                                 </div><br>
                                 
                             </div>
+                            <div class="mb-3"> 
+                                <label for="exampleFormControlInput1" class="form-label">Full name <span style="color: orange;">*</span></label>
+                                <input type="text" class="form-control" id="fullname" placeholder="">
+                                <div id="fullname_error" class="form-text">
+                                    
+                                </div><br>
+                                
+                            </div>
+                            
                             <div class="container">
                                 <label for="inputPassword5" class="form-label"> Mobile <span style="color: orange;">*</span></label>
-                                <input type="password" id="phonenum" class="form-control" aria-describedby="passwordHelpBlock">  
+                                <input type="tel" id="phonenum" class="form-control" aria-describedby="passwordHelpBlock">  
                             </div>
                             <div id="phonenum_error" class="form-text">
                                 eg: 077*******
@@ -75,6 +84,13 @@
                                 Your password should be between 6-18 characters.
                             </div><br><br>
                             <div class="container">
+                                <label for="inputPassword5" class="form-label"> Confirm password <span style="color: orange;">*</span></label>
+                                <input type="password" id="cpassword" class="form-control" aria-describedby="passwordHelpBlock">  
+                            </div>
+                            <div id="cpassword_error" class="form-text">
+                                
+                            </div><br><br>
+                            <div class="container">
                                 <input class="form-check-input" type="checkbox" id="requiredFieldsetCheck" required>
                             <label class="form-check-label" for="requiredFieldsetCheck">Iagree to the terms & conditions Orange.<span class="visually-hidden"> (required)</span></label>
                             </div><br><br>
@@ -83,8 +99,8 @@
                             <label class="form-check-label" for="requiredFieldsetCheck">Receive Coding Academy Newsletter<span class="visually-hidden"> (required)</span></label>
                             </div><br><br>
                             <div class="d-grid gap-2">
-                                <button class="btn btn-primary" type="submit" style="color: white;">submit</button><br>
-                                <button class="btn btn-primary" type="submit" style="background-color: white;border:solid  black;">Already have an account?login</button>
+                                <button id="submitt"  class="btn btn-primary" type="submit" style="color: white;"><a style="text-decoration: none;" href="wwww.google.com">submit</a></button><br>
+                                <button id="login" class="btn btn-primary" type="submit" style="background-color: white;border:solid  black;"><a style="text-decoration: none;" href="file:///C:/Users/Orange/Desktop/daily%20task/Java%20script/10.06.2024/page1.html">Already have an account?login</a></button>
                             </div>
                         </div>
                     </form>
